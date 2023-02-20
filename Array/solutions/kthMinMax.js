@@ -1,10 +1,10 @@
 const findKthMin=(arr,k)=>{
     const ar=[...arr]
 let count=0;
-let min=ar[0];
+let min=Number.POSITIVE_INFINITY;
 let index=0;
     while(count<k){
-        min=ar[0];
+        min=Number.POSITIVE_INFINITY;
         ar.map((el,i)=>{
             if(el<min){
                 min=el;
@@ -20,10 +20,10 @@ let index=0;
 const findKthMax=(arr,k)=>{
     const ar=[...arr]
     let count=0;
-    let max=ar[0];
+    let max=Number.NEGATIVE_INFINITY;
     let index=0;
         while(count<k){
-            max=ar[0];
+            max=Number.NEGATIVE_INFINITY;
             ar.map((el,i)=>{
                 if(el>max){
                     max=el;

@@ -1,6 +1,7 @@
 // INPUT array=[1,2,3,4,5,6,7,8,9];
 const reverseOP=[9,8,7,6,5,4,3,2,1];
 const minMaxOP=[1,9];
-const kthMinMax=[3,7];
+const kthMinMaxOP=[3,7];
+const sortColorOP=[0,0,1,1,2,2];
 
-module.exports={reverseOP,minMaxOP,kthMinMax}
+module.exports={reverseOP,minMaxOP,kthMinMaxOP,sortColorOP}

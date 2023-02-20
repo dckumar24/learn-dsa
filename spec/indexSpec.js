@@ -9,7 +9,10 @@ const exp = require('constants')
         expect(Array.findMinMaxOfArray(Array.inputArrays.normalIP)).toEqual(Array.expectedOP.minMaxOP)
     })
     it('3rd min and max of arrary',()=>{
-        expect(Array.findKthMinMax(Array.inputArrays.normalIP,3)).toEqual(Array.expectedOP.kthMinMax)
+        expect(Array.findKthMinMax(Array.inputArrays.normalIP,3)).toEqual(Array.expectedOP.kthMinMaxOP)
+    })
+    it('Sort color output',()=>{
+        expect(Array.sortColors(Array.inputArrays.sortColorIP)).toEqual(Array.expectedOP.sortColorOP);
     })
     
 })
