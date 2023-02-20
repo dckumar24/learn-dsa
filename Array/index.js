@@ -1,6 +1,7 @@
-const arrayValue=require('./arrayValue');
-const expectedOP=require('./expectedArray');
-const reverseTheArray = require('./reverseTheArray');
-const findMinMaxOfArray=require('./min-max-array');
+const arrayValue=require('./Values/arrayValue');
+const expectedOP=require('./Values/expectedArray');
+const reverseTheArray = require('./solutions/reverseTheArray');
+const findMinMaxOfArray=require('./solutions/min-max-array');
+const findKthMinMax=require('./solutions/kthMinMax');
 
-module.exports = {arrayValue,expectedOP,reverseTheArray,findMinMaxOfArray}
+module.exports = {arrayValue,expectedOP,reverseTheArray,findMinMaxOfArray,findKthMinMax}

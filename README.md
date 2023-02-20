@@ -1,6 +1,6 @@
 **This repo contains the DSA Learning practise Q&A's.**
 
-Run **node .** to run the code.
+Run **npm start** to run the code.
 
 Run **npm test** for the jasmine test framework testing.
 

@@ -5,7 +5,6 @@ const findMinMaxOfArray=(arr)=>{
         max=el>=max?el:max;
         min=el<=min?el:min;
     })
-    console.log("Min and Max of array",[min,max])
     return [min,max]
 }
 module.exports=findMinMaxOfArray
