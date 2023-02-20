@@ -1,0 +1,40 @@
+{
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "jasmine": "^4.5.0",
+    "mocha": "^10.2.0"
+  },
+  "name": "learn-dsa",
+  "description": "This repo contains the DSA Learning practise Q&A's.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "concat-map": "^0.0.1",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.2.3",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.4",
+    "jasmine-core": "^4.5.0",
+    "jest": "^29.4.3",
+    "minimatch": "^3.1.2",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "wrappy": "^1.0.2"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "test-jest":"jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dckumar24/learn-dsa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dckumar24/learn-dsa/issues"
+  },
+  "homepage": "https://github.com/dckumar24/learn-dsa#readme"
+}
