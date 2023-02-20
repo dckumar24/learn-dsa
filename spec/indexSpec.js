@@ -1,6 +1,10 @@
-const reverseTheArray=require('../index');
+const Array=require('../Array');
+
 describe("Array Specs",function (){
     it("reverse the array",()=>{
-        expect(reverseTheArray([1,2,3,4,5,6,7,8,9,10])).toEqual([10,9,8,7,6,5,4,3,2,1]);
+        expect(Array.reverseTheArray(Array.arrayValue)).toEqual(Array.expectedOP.reverseOP);
+    });
+    it('min and max in array',()=>{
+        expect(Array.findMinMaxOfArray(Array.arrayValue)).toEqual(Array.expectedOP.minMaxOP)
     })
 })
