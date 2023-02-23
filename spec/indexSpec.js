@@ -10,9 +10,12 @@ const exp = require('constants')
     })
     it('3rd min and max of arrary',()=>{
         expect(Array.findKthMinMax(Array.inputArrays.normalIP,3)).toEqual(Array.expectedOP.kthMinMaxOP)
-    })
+    });
     it('Sort color output',()=>{
         expect(Array.sortColors(Array.inputArrays.sortColorIP)).toEqual(Array.expectedOP.sortColorOP);
+    });
+    it('Move all Negative to end and postive to start in same order as IP',()=>{
+        expect(Array.moveAllNegative(Array.inputArrays.moveNegativeIP)).toEqual(Array.expectedOP.moveNegativeOP);
     })
     
 })
