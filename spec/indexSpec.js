@@ -16,6 +16,12 @@ const exp = require('constants')
     });
     it('Move all Negative to end and postive to start in same order as IP',()=>{
         expect(Array.moveAllNegative(Array.inputArrays.moveNegativeIP)).toEqual(Array.expectedOP.moveNegativeOP);
-    })
+    });
+    it('Union of two sorted Arrays',()=>{
+        expect(Array.union(Array.inputArrays.sorted1IP,Array.inputArrays.sorted2IP)).toEqual(Array.expectedOP.unionOP);
+    });
+    it('Intersection of two sorted Arrays',()=>{
+        expect(Array.intersection(Array.inputArrays.sorted1IP,Array.inputArrays.sorted2IP)).toEqual(Array.expectedOP.intersectionOP);
+    });
     
 })

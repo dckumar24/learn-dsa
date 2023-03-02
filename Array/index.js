@@ -5,6 +5,8 @@ const findMinMaxOfArray=require('./solutions/min-max-array');
 const findKthMinMax=require('./solutions/kthMinMax');
 const sortColors=require('./solutions/sortColors');
 const moveAllNegative=require('./solutions/moveAllNegative');
+const {union}=require('./solutions/unionIntersectionOfSortedArrays');
+const {intersection}=require('./solutions/unionIntersectionOfSortedArrays');
 
 module.exports = {
     inputArrays,
@@ -13,5 +15,7 @@ module.exports = {
     findMinMaxOfArray,
     findKthMinMax,
     sortColors,
-    moveAllNegative
+    moveAllNegative,
+    union,
+    intersection
 }
