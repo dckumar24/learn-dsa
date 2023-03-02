@@ -8,3 +8,4 @@ console.log('Sort color output',Array.sortColors(Array.inputArrays.sortColorIP))
 console.log('Move all Negative to end and postive to start with out altering order',Array.moveAllNegative(Array.inputArrays.moveNegativeIP));
 console.log('Union of the two sorted arrays',Array.union(Array.inputArrays.sorted1IP,Array.inputArrays.sorted2IP));
 console.log('Intersection of the two sorted arrays',Array.intersection(Array.inputArrays.sorted1IP,Array.inputArrays.sorted2IP));
+console.log('Rotate the array in clockwise by one postion',Array.rotateCycleByOne(Array.inputArrays.rotateByOneIP));

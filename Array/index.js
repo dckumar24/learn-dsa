@@ -7,6 +7,7 @@ const sortColors=require('./solutions/sortColors');
 const moveAllNegative=require('./solutions/moveAllNegative');
 const {union}=require('./solutions/unionIntersectionOfSortedArrays');
 const {intersection}=require('./solutions/unionIntersectionOfSortedArrays');
+const rotateCycleByOne=require('./solutions/rotateCycleByOne');
 
 module.exports = {
     inputArrays,
@@ -17,5 +18,6 @@ module.exports = {
     sortColors,
     moveAllNegative,
     union,
-    intersection
+    intersection,
+    rotateCycleByOne
 }

@@ -22,5 +22,8 @@ describe('Array Test cases',()=>{
     it('Intersection of two sorted Arrays',()=>{
         expect(Array.intersection(Array.inputArrays.sorted1IP,Array.inputArrays.sorted2IP)).toEqual(Array.expectedOP.intersectionOP);
     })
+    it('Rotate the array in clockwise by one postion',()=>{
+        expect(Array.rotateCycleByOne(Array.inputArrays.rotateByOneIP)).toEqual(Array.expectedOP.rotateByOneOP);
+    });
     
 })
